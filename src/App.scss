@@ -1,0 +1,30 @@
+@import "./global.scss";
+
+.app {
+  .header {
+    padding: 2rem 9%;
+  }
+}
+
+// media quearies
+@include device(991px) {
+  .home {
+    .header {
+      padding: 2rem 5%;
+    }
+  }
+}
+@include device(800px) {
+  .home {
+    .header {
+      padding: 2rem 3rem;
+    }
+  }
+}
+@include device(450px) {
+  .home {
+    .header {
+      padding: 2rem;
+    }
+  }
+}

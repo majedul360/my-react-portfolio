@@ -1,0 +1,48 @@
+@import "../../global.scss";
+
+.contact {
+  margin-top: 7.5rem;
+  height: 89.9vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $bg-2;
+  width: 100%;
+  form {
+    width: 40%;
+    @include device(991px) {
+      width: 60%;
+    }
+    @include device(450px) {
+      width: 80%;
+    }
+    input,
+    textArea {
+      border: 0.2rem solid $color;
+      width: 100%;
+      padding: 1.2rem 2rem;
+      margin: 1.5rem 0;
+      background: $white;
+      text-transform: none;
+    }
+
+    input::placeholder,
+    textArea::placeholder {
+      text-transform: capitalize;
+      font-size: 1.7rem;
+    }
+
+    textArea {
+      resize: none;
+    }
+
+    .btn {
+      color: $white;
+      font-size: 2rem;
+      text-transform: capitalize;
+      padding: 1.2rem 2rem;
+      background: $color;
+      cursor: pointer;
+    }
+  }
+}

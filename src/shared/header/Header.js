@@ -4,7 +4,9 @@ import "./Header.scss";
 const Header = () => {
   return (
     <div className="header">
-      <span>Mr. Majedul</span>
+      <span>
+        <i>Mr.</i> <i>Majedul</i>
+      </span>
       <nav>
         <Link className="nav-link" to="/">
           Home
@@ -12,6 +14,9 @@ const Header = () => {
         <a href="images/Majedul Islam Resume.pdf" download className="nav-link">
           Download Resume
         </a>
+        <Link className="nav-link" to="/contact">
+          Contact
+        </Link>
       </nav>
     </div>
   );
