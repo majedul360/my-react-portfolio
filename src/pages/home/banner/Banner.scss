@@ -1,0 +1,22 @@
+@import "../../../global.scss";
+
+.banner {
+  background: url(../../../../public/images/bg.webp) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-top: 7.5rem;
+  padding: 0 9%;
+
+  h1 {
+    color: $white;
+    font-size: 5rem;
+  }
+
+  h3 {
+    color: $white;
+    font-size: 3.5rem;
+    margin: 4rem 0;
+  }
+}

@@ -1,0 +1,20 @@
+$header-text: #424242;
+$orange: #f26c4f;
+$navbar-hover: #f3f3f3;
+$white: #fff;
+$icon-bg: #ceced1;
+$text: #c7d1d6;
+$card-bg: #12141c;
+$bg-1: #020312;
+$bg-2: #0a0c18;
+$rgba: rgba(17, 18, 32, 1);
+$green: #2ca46d;
+$ligt-green: #4caf50;
+$color: #ee0965;
+$mixed: linear-gradient(#f71e04, #ee0965);
+
+@mixin device($val) {
+  @media (max-width: $val) {
+    @content;
+  }
+}
