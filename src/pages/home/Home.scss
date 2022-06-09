@@ -3,6 +3,10 @@
   .header {
     padding: 2rem 9%;
   }
+
+  .sections > * {
+    padding: 5rem 9%;
+  }
 }
 
 // media quearies
@@ -11,6 +15,10 @@
     .header {
       padding: 2rem 5%;
     }
+
+    .sections > * {
+      padding: 5rem 5%;
+    }
   }
 }
 @include device(800px) {
@@ -18,12 +26,20 @@
     .header {
       padding: 2rem 3rem;
     }
+
+    .sections > * {
+      padding: 5rem 3rem;
+    }
   }
 }
 @include device(450px) {
   .home {
     .header {
       padding: 2rem;
+    }
+
+    .sections > * {
+      padding: 5rem 2rem;
     }
   }
 }

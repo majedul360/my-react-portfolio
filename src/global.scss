@@ -18,3 +18,16 @@ $mixed: linear-gradient(#f71e04, #ee0965);
     @content;
   }
 }
+
+@mixin customGrid($value) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($value, 1fr));
+  gap: 3.5rem;
+}
+
+@mixin paragraph($val) {
+  color: $text;
+  font-size: 1.7rem;
+  line-height: $val;
+  text-transform: none;
+}
