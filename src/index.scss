@@ -18,6 +18,19 @@ html {
   overflow-x: hidden;
 }
 
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: $crimson;
+  border-radius: 5rem;
+}
+
 // media quearies
 
 @include device(991px) {

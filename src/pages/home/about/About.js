@@ -1,4 +1,5 @@
 import React from "react";
+import ResumeBtn from "../../../shared/resumeBtn/ResumeBtn";
 import SectionTitle from "../../../shared/sectionTitle/SectionTitle";
 import "./About.scss";
 const About = () => {
@@ -17,9 +18,7 @@ const About = () => {
             developed 10+ websites. Now I am confident in frontend development.
             I am ready to work in any environment and with responsibilities.
           </p>
-          <a href="images/majedul-resume.pdf" className="btn" download>
-            Download resume
-          </a>
+          <ResumeBtn />
         </div>
       </div>
     </div>

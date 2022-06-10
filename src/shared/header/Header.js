@@ -1,5 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import CustomLink from "../../CustomLink";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Header.scss";
 const Header = () => {
   return (
@@ -8,15 +10,15 @@ const Header = () => {
         <i>Mr.</i> <i>Majedul</i>
       </span>
       <nav>
-        <Link className="nav-link" to="/">
+        <CustomLink className="nav-link" to="/">
           Home
-        </Link>
-        <a href="images/Majedul Islam Resume.pdf" download className="nav-link">
-          Download Resume
-        </a>
-        <Link className="nav-link" to="/contact">
+        </CustomLink>
+        <CustomLink className="nav-link" to="/contact">
           Contact
-        </Link>
+        </CustomLink>
+        <CustomLink className="nav-link" to="/blogs">
+          Blogs
+        </CustomLink>
       </nav>
     </div>
   );

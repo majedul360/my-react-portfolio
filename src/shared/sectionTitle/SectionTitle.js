@@ -4,7 +4,7 @@ const SectionTitle = ({ children }) => {
   return (
     <div className="section-title">
       <h2>{children}</h2>
-      <div class="title-divider">
+      <div className="title-divider">
         <span></span>
         <span></span>
         <span></span>
