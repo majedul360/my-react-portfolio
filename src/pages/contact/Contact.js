@@ -15,6 +15,7 @@ const Contact = () => {
       )
       .then((res) => {
         event.target.reset();
+        alert("sending mail successful");
       })
       .catch((e) => {});
   };

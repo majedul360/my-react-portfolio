@@ -17,7 +17,7 @@
     span:nth-child(1) {
       width: 10rem;
       height: 0.2rem;
-      background: $color;
+      background: $crimson;
       display: inline-block;
       top: 0;
       margin: 0 2rem;
@@ -26,7 +26,7 @@
     span:nth-child(4) {
       width: 10rem;
       height: 0.2rem;
-      background: $color;
+      background: $crimson;
       display: inline-block;
       top: 0;
       margin: 0 2.5rem;
@@ -36,7 +36,7 @@
       position: absolute;
       width: 0.2rem;
       height: 3rem;
-      border-right: 0.5rem dotted $color;
+      border-right: 0.5rem dotted $crimson;
       transform: rotate(45deg);
       display: inline-block;
       top: 0;
@@ -46,7 +46,7 @@
       position: absolute;
       width: 0.2rem;
       height: 3rem;
-      border-right: 0.5rem dotted $color;
+      border-right: 0.5rem dotted $crimson;
       transform: rotate(-45deg);
       display: inline-block;
       top: 0;
